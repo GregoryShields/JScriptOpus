@@ -67,7 +67,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Script Functions\First Functions\FileNameDialog.js" />
+    <Content Include="Script Functions\Default\DefaultModified.js" />
     <Content Include="Script Functions\Getting Started\CustomSortAndRename.js" />
+    <Content Include="Script Functions\Default\Default.js" />
     <Content Include="Script Functions\Getting Started\HelloWorld.js" />
     <Content Include="Script Functions\Getting Started\NamesOfSelectedFiles.js" />
     <Content Include="Web.config" />

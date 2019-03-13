@@ -24,9 +24,12 @@ function OnClick(clickData) {
 		dlg.Show();  
 	}  
 
+	var cmd = clickData.func.command;
+	cmd.deselect = false; // Prevent automatic deselection
 	// The details of outputting to the Other Logs utility pane  
 	// are covered in the previous script.  
-	clickData.func.command.RunCommand("Set UTILITY=otherlog");
+	//clickData.func.command.RunCommand("Set UTILITY=otherlog");
+	cmd.RunCommand("Set UTILITY=otherlog");
 
 	// Create an enumerator object to enumerate the selected files.  
 	// JS enumerators: https://tinyurl.com/ybkplgax  
